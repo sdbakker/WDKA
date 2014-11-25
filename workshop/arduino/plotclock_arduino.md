@@ -23,11 +23,11 @@ In this workshop we will be making an interactive installation for the Interacti
 * [More stuff](http://www.creativeapplications.net/?s=arduino)
 * Johannes: [PlotClock](https://www.youtube.com/watch?v=iOLFP90DneY)
 
-## Today
+## Week 1
 Create a simple drawing machine.
 
 * What is an Arduino, what does it do and why is it useful?
- * [Microcontroller](http://bit.ly/17jj02u) => [Development board](http://en.wikipedia.org/wiki/Microprocessor_development_board)
+ * [Microcontroller](http://bit.ly/17jj02u) => [Development board](http://en.wikipedia.org/wiki/Microprocessor_development_board) => [Arduino](http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front.jpg)
  * [What is in a microcontroller](http://microcontroller.com/news/images/1/Atmel_XMEGA_B1.jpg)
  * [Sooo many different flavours](http://www.atmel.com/products/microcontrollers/default.aspx)
  * [Many different tastes of arduino to](http://arduino.cc/en/Main/Products)
