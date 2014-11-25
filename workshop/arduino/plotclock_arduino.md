@@ -28,11 +28,13 @@ Create a simple drawing machine.
 
 * What is an Arduino, what does it do and why is it useful?
  * [Microcontroller](http://bit.ly/17jj02u) => [Development board](http://en.wikipedia.org/wiki/Microprocessor_development_board)
- * [Sooo many different flavours](http://arduino.cc/en/Main/Products)
+ * [What is in a microcontroller](http://microcontroller.com/news/images/1/Atmel_XMEGA_B1.jpg)
+ * [Sooo many different flavours](http://www.atmel.com/products/microcontrollers/default.aspx)
+ * [Many different tastes of arduino to](http://arduino.cc/en/Main/Products)
 * Install the Arduino IDE: [http://arduino.cc/en/Main/Software](http://arduino.cc/en/Main/Software)
 * Have some [bread](https://www.youtube.com/watch?v=dvsHkyqzy9M)([board](https://www.youtube.com/watch?v=q_Q5s9AhCR0))
-* Hello world... [blink that LED](http://arduino.cc/en/Tutorial/Blink)
-* Get some movement with a [servo](...)
+* Hello world... [blink](http://arduino.cc/en/Tutorial/Blink) that [LED](http://arduino.cc/en/Tutorial/Blink)
+* Get some movement with a [servo](http://arduino.cc/en/Tutorial/Sweep)
 
 ## Resources
 ### Arduino related
