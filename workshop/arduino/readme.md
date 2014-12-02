@@ -36,6 +36,18 @@ Create a simple drawing machine.
 * Hello world... [blink](http://arduino.cc/en/Tutorial/Blink) that [LED](http://arduino.cc/en/Tutorial/Blink)
 * Get some movement with a [servo](http://arduino.cc/en/Tutorial/Sweep)
 
+## Week 2
+What is a servo, try it out 
+ * [A servo](http://www.pyroelectro.com/tutorials/servo_motor/parts/hitec_servo_b.jpg)
+ * How to control: [PWM signal](http://upload.wikimedia.org/wikipedia/commons/7/7b/ServoPwm.png)
+ * Arduino [example](http://arduino.cc/en/Tutorial/Sweep)
+
+Build a plotclock
+ * The [plotclock](http://www.thingiverse.com/thing:248009)
+ * The [code](https://github.com/9a/plotclock)
+ * Time library: [portal](http://playground.arduino.cc/Code/time), [Time](http://www.pjrc.com/teensy/td_libs_Time.html)
+
+
 ## Resources
 ### Arduino related
 * [The arduino site](http://arduino.cc)
