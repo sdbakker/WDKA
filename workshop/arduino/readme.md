@@ -12,7 +12,7 @@ In this workshop we will be making an interactive installation for the Interacti
 * Giny Vos: [Ruis](http://vimeo.com/39400030)
 * Kasia Molga: [Oil Compass](http://vimeo.com/29138438)
 * Summer Sessions 2011: [TK730](http://vimeo.com/44864724)
-* The obsessive drafter: 
+* The obsessive drafter:
 [http://theobsessivedrafter.com/](http://theobsessivedrafter.com/)<br/>
 [http://snapwidget.com/v/679588389264318109#.VHOrpIvF-So](http://snapwidget.com/v/679588389264318109#.VHOrpIvF-So)<br/>
 [http://snapwidget.com/v/671679944340470681#.VHOreYvF-So](http://snapwidget.com/v/671679944340470681#.VHOreYvF-So)
@@ -37,7 +37,7 @@ Create a simple drawing machine.
 * Get some movement with a [servo](http://arduino.cc/en/Tutorial/Sweep)
 
 ## Week 2
-What is a servo, try it out 
+What is a servo, try it out
  * [A servo](http://www.pyroelectro.com/tutorials/servo_motor/parts/hitec_servo_b.jpg)
  * How to control: [PWM signal](http://upload.wikimedia.org/wikipedia/commons/7/7b/ServoPwm.png)
  * Arduino [example](http://arduino.cc/en/Tutorial/Sweep)
@@ -46,6 +46,17 @@ Build a plotclock
  * The [plotclock](http://www.thingiverse.com/thing:248009)
  * The [code](https://github.com/9a/plotclock)
  * Time library: [portal](http://playground.arduino.cc/Code/time), [Time](http://www.pjrc.com/teensy/td_libs_Time.html)
+
+## Week 3
+Sensors
+ * How to read a sensor:
+  * [analog signal](http://arduino.cc/en/Reference/AnalogRead)
+  * [digital signal](http://arduino.cc/en/Reference/DigitalRead)
+  * Others?
+ * [The sharp distance sensor](http://www.sharpsma.com/webfm_send/1489)
+ * Arduino [example analogRead](http://arduino.cc/en/Reference/analogRead)
+
+###Continue with your project!
 
 
 ## Resources
