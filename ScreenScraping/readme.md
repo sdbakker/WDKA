@@ -1,12 +1,14 @@
-# Screen (web) scraping
-
-In this workshop we will be making an interactive installation for the Interaction Station. The installation will be based on the plotclock, a time plotting clock. Along the way you will learn the basics of Arduino, sensors, actuators and programming. But you will also learn what it takes to make an interactive installation run by itself (e.g. no laptops attached).
+# Introduction to screen (web) scraping
 
 ## What's to [web,screen]scrape
  * Screen scraping used to acquire data from terminals/UIs
  * Screen scraping <-> web scraping
-
  * When to you scrape
+
+## The structure of a website
+ * Elements
+ * Attributes
+ * Parents / Childrens / sibblings / ancestors / descendants 
 
 ## The hard way (in code)
 * [XPath](http://www.w3schools.com/xpath/xpath_syntax.asp) 
@@ -16,4 +18,9 @@ In this workshop we will be making an interactive installation for the Interacti
 ## The easy way
 * [Web scraper](http://webscraper.io/)
 * [import.io](https://import.io/)
+* [more...](http://bit.ly/1uMo7hy)
 
+## Try it out
+* install [Web scraper](http://webscraper.io/) in chrome
+* scrape for top ten lists in [alletop10lijstjes](http://www.alletop10lijstjes.nl/)
+* scrape for a certain category in the top ten lists
