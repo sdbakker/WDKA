@@ -18,7 +18,7 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -1545,7 +1545,7 @@ design rules under a new name.
 <element name="C3" library="rcl" package="C1206K" value="570pF" x="35.5" y="31" rot="R270"/>
 <element name="R1" library="rcl" package="R1206" value="10k" x="41" y="36" rot="R270"/>
 <element name="R2" library="rcl" package="R1206" value="10" x="30" y="25"/>
-<element name="R3" library="rcl" package="R1206" value="270k" x="47" y="36" rot="R270"/>
+<element name="R3" library="rcl" package="R1206" value="270k" x="47" y="37" rot="R270"/>
 <element name="R4" library="rcl" package="R1206" value="10M" x="32" y="31" rot="R90"/>
 <element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="MMBT2222A" x="40" y="30" rot="R270">
 <attribute name="PROD_ID" value="TRANS-08049" x="40" y="30" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1560,7 +1560,7 @@ design rules under a new name.
 <contactref element="IC1" pad="7"/>
 <contactref element="R1" pad="1"/>
 <contactref element="PAD1" pad="1"/>
-<polygon width="0.254" layer="1" isolate="0.3048" rank="5">
+<polygon width="0.254" layer="1" isolate="0.3048" thermals="no" rank="5">
 <vertex x="43.185" y="79.04"/>
 <vertex x="33.795" y="79.04"/>
 <vertex x="30.045" y="78.1"/>
@@ -1618,13 +1618,12 @@ design rules under a new name.
 <vertex x="43.195" y="37.17"/>
 <vertex x="43.195" y="79.05"/>
 </polygon>
-<wire x1="41" y1="37.422" x2="40" y2="41.5" width="0" layer="19" extent="1-1"/>
-<wire x1="24.0734" y1="38.135" x2="40" y2="41.5" width="0" layer="19" extent="1-1"/>
+<wire x1="40" y1="41.5" x2="24.0734" y2="38.135" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TOUCH2">
 <contactref element="R3" pad="1"/>
 <contactref element="PAD2" pad="1"/>
-<polygon width="0.254" layer="1" isolate="0.254" rank="5">
+<polygon width="0.254" layer="1" isolate="0.254" thermals="no" rank="5">
 <vertex x="44.775" y="79.04"/>
 <vertex x="44.775" y="37.16"/>
 <vertex x="46.075" y="37.78"/>
@@ -1681,7 +1680,6 @@ design rules under a new name.
 <vertex x="48.855" y="78.51"/>
 <vertex x="44.895" y="79.04"/>
 </polygon>
-<wire x1="47" y1="37.422" x2="47.8" y2="41.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="BAT1" pad="2"/>
@@ -1690,7 +1688,7 @@ design rules under a new name.
 <contactref element="R4" pad="1"/>
 <contactref element="R2" pad="1"/>
 <contactref element="U$1" pad="2"/>
-<polygon width="0.254" layer="1" isolate="0.8128" orphans="yes" rank="6">
+<polygon width="0.254" layer="1" isolate="1.27" orphans="yes" thermals="no" rank="6">
 <vertex x="38.385" y="79.6"/>
 <vertex x="35.545" y="79.54"/>
 <vertex x="33.295" y="79.26"/>
@@ -1854,14 +1852,7 @@ design rules under a new name.
 <contactref element="R5" pad="2"/>
 <contactref element="IC1" pad="1"/>
 <contactref element="R5" pad="1"/>
-<wire x1="42" y1="16" x2="61.276978125" y2="22.30595" width="0" layer="19" extent="1-1"/>
-<wire x1="35.5" y1="29.5" x2="42" y2="16" width="0" layer="19" extent="1-1"/>
-<wire x1="32" y1="29.578" x2="35.5" y2="29.5" width="0" layer="19" extent="1-1"/>
-<wire x1="28.5" y1="29.5" x2="32" y2="29.578" width="0" layer="19" extent="1-1"/>
-<wire x1="28.578" y1="25" x2="28.5" y2="29.5" width="0" layer="19" extent="1-1"/>
-<wire x1="17.9266" y1="39.405" x2="28.5" y2="29.5" width="0" layer="19" extent="1-1"/>
 <wire x1="13.922" y1="42" x2="17.9266" y2="39.405" width="0" layer="19" extent="1-1"/>
-<wire x1="11.078" y1="42" x2="13.922" y2="42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="BAT1" pad="1"/>
@@ -1891,7 +1882,7 @@ design rules under a new name.
 <contactref element="R4" pad="2"/>
 <contactref element="IC1" pad="2"/>
 <contactref element="R3" pad="2"/>
-<wire x1="35.5" y1="32.5" x2="47" y2="34.578" width="0" layer="19" extent="1-1"/>
+<wire x1="35.5" y1="32.5" x2="47" y2="35.578" width="0" layer="19" extent="1-1"/>
 <wire x1="32" y1="32.422" x2="35.5" y2="32.5" width="0" layer="19" extent="1-1"/>
 <wire x1="24.0734" y1="36.865" x2="32" y2="32.422" width="0" layer="19" extent="1-1"/>
 <wire x1="17.9266" y1="38.135" x2="24.0734" y2="36.865" width="0" layer="19" extent="1-1"/>
